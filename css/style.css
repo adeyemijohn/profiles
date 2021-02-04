@@ -575,7 +575,13 @@ body{
     max-width: 100%;
     text-align: center;
 }
-
+.portfolio .portfolio-filter button{
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
 
 
 /*Portfolio Section Ends*/
