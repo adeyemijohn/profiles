@@ -684,6 +684,7 @@ body{
     -ms-flex-pack: center;
     justify-content: center;
     cursor: zoom-out;
+    padding: 30px;
 }
 
 .lightbox .lightbox-content img{
@@ -700,10 +701,13 @@ body{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: red;
+    /*background-color: red;*/
     top: -40px;
     right: 0px;
-    font-size: 30px;
+    font-size: 32px;
+    text-align: right;
+    color: #ffffff;
+    line-height: 40px;
 }
 .lightbox .lightbox-content .lightbox-caption{
     position: absolute;
@@ -717,5 +721,20 @@ body{
     font-size: 16px;
     color: #ffffff;
     font-weight: 400;
+}
+
+.lightbox .lightbox-controls .prev-item,
+.lightbox .lightbox-controls .next-item {
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa{
+    font-size: 32px; 
+    line-height: 40px;
 }
 /*LightBox Content begins*/
