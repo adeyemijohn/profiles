@@ -583,6 +583,7 @@ body{
     text-transform: capitalize;
     margin: 0 10px;
     color: #302e4d;
+    cursor: pointer;
 }
 
 
