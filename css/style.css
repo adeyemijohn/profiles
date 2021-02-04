@@ -592,7 +592,18 @@ body{
     transition: all 0.3s ease;
 }
 .portfolio .portfolio-item{
-    background-color: red;
+    /*background-color: red;*/
+    flex: 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+}
+.portfolio .portfolio-item .portfolio-img{
+    border: 6px solid #fdf9ff;
+    border-radius: 10px;
+}
+.portfolio .portfolio-item .portfolio-img img{
+    width: 100%;
+    display: block;
 }
 .portfolio .portfolio-item .portfolio-info{
     display: none;
