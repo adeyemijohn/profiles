@@ -683,6 +683,7 @@ body{
     align-items: center;
     -ms-flex-pack: center;
     justify-content: center;
+    cursor: zoom-out;
 }
 
 .lightbox .lightbox-content img{
@@ -690,6 +691,31 @@ body{
     width: auto;
     max-width: 100%;
     max-height: 430px;
+    cursor: pointer;
 }
-
+.lightbox .lightbox-content{
+    position: relative;
+}
+.lightbox .lightbox-content .lightbox-close{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    top: -40px;
+    right: 0px;
+    font-size: 30px;
+}
+.lightbox .lightbox-content .lightbox-caption{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+     display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
 /*LightBox Content begins*/
