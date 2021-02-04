@@ -568,7 +568,7 @@ body{
 
 
 /*Portfolio Section Begins*/
-.portfolio .portfolio-filter {
+.portfolio .portfolio-filter{
     /*background-color: red;*/
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
@@ -603,7 +603,7 @@ body{
     overflow: hidden;
     cursor: pointer;
 }
-.portfolio .portfolio-item-inner .portfolio-img img{
+.portfolio .portfolio-item-inner .portfolio-img img {
     width: 100%;
     display: block;
 }
