@@ -597,9 +597,11 @@ body{
     max-width: 33.33%;
     margin-bottom: 30px;
 }
-.portfolio .portfolio-item .portfolio-img{
+.portfolio .portfolio-item{
     border: 6px solid #fdf9ff;
     border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
 }
 .portfolio .portfolio-item .portfolio-img img{
     width: 100%;
