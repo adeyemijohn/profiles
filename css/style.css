@@ -1,7 +1,4 @@
-/*Font Awesome Free icon*/
-@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 /*Google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;0,900;1,500&display=swap');
 
 /*General Styling*/
@@ -9,7 +6,7 @@ body{
     margin: 0;
     line-height: 1.5;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 400;
 }
 
@@ -601,6 +598,37 @@ body{
     max-width: 33.33%;
     margin-bottom: 30px;
 }
+.portfolio .portfolio-item.hide{
+    display: none;
+}
+.portfolio .portfolio-item.show{
+    display: block;
+    animation: showItem 0.5s ease;
+}
+@-webkit-keyframes showItem{
+    0%{
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes showItem{
+    0%{
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 .portfolio .portfolio-item-inner{
     border: 6px solid #fdf9ff;
     border-radius: 10px;
@@ -669,7 +697,7 @@ body{
 /*Portfolio Section Ends*/
 
 /*LightBox Content begins*/
-/*.lightbox{
+.lightbox{
     position: fixed;
     left: 0;
     top: 0;
@@ -701,7 +729,7 @@ body{
     position: absolute;
     height: 40px;
     width: 40px;
-    /*background-color: red
+    /*background-color: red*/
     top: -40px;
     right: 0px;
     font-size: 32px;
@@ -721,7 +749,7 @@ body{
     font-size: 16px;
     color: #ffffff;
     font-weight: 400;
-}*/
+}
 
 .lightbox .lightbox-controls .prev-item,
 .lightbox .lightbox-controls .next-item {
