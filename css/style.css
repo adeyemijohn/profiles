@@ -698,7 +698,7 @@ body{
 }
 /*Portfolio Section Ends*/
 
-/*LightBox Content begins
+/*LightBox Content begins*/
 .lightbox{
     position: fixed;
     left: 0;
@@ -731,7 +731,7 @@ body{
     position: absolute;
     height: 40px;
     width: 40px;
-    /*background-color: red
+    /*background-color: red*/
     top: -40px;
     right: 0px;
     font-size: 32px;
