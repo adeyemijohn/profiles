@@ -17,7 +17,6 @@ const filterContainer=document.querySelector(".portfolio-filter"),
                 console.log(filterValue)
                 for (let k=0; k<totalportfolioItem; k++){
                     if (portfolioItems[k].getAttribute("data-category").includes(filterValue) ){
-                        // if (filterValue === portfolioItems[k].getAttribute("data-category")){
                         portfolioItems[k].classList.add("show");
                         portfolioItems[k].classList.remove("hide"); 
                     }
