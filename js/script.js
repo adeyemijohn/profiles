@@ -70,7 +70,7 @@ const filterContainer=document.querySelector(".portfolio-filter"),
 
         function changeItem(){
             imgSrc=portfolioItems[itemIndex].querySelector(".portfolio-img img").getAttribute("src");
-            lightbox.src=imgSrc;
+            lightboxImg.src=imgSrc;
             lightboxText.innerHTML=portfolioItems[itemIndex].querySelector("h4").innerHTML;
             lightboxCounter.innerHTML=(itemIndex+1) + " of " + totalportfolioItem;
         };

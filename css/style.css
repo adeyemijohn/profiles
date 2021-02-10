@@ -716,7 +716,7 @@
         cursor: zoom-out;
         padding: 30px ;
     }
-    .lightbox .open{
+    .lightbox.open{
         display: -ms-flexbox;
         display: flex;
     }
