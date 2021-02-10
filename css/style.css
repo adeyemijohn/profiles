@@ -780,11 +780,16 @@
         color: #ffffff;
         font-weight: 400;
     }
+    .lightbox .lightbox-controls .prev-item:hover,
+    .lightbox .lightbox-controls .next-item:hover  {
+        -webkit-transition: scale(1.1);
+        transition: scale(1.1);
+    }
 
     .lightbox .lightbox-controls .prev-item:active,
     .lightbox .lightbox-controls .next-item:active{
-        -webkit-transition: scale(1.1);
-        transition: scale(1.1);
+        -webkit-transition: scale(1);
+        transition: scale(1);
     }
 
     .lightbox .lightbox-controls .prev-item{

@@ -32,6 +32,7 @@ const filterContainer=document.querySelector(".portfolio-filter"),
         // Portfolio Lightbox
         const lightbox=document.querySelector(".lightbox"),
                 lightboxImg=lightbox.querySelector(".lightbox-img"),
+                lightboxClose=lightbox.querySelector(".lightbox-close"),
                 lightboxText=lightbox.querySelector(".caption-text"),
                 lightboxCounter=lightbox.querySelector(".caption-counter");
         let itemIndex=0;
@@ -45,11 +46,20 @@ const filterContainer=document.querySelector(".portfolio-filter"),
         }
 
         function nextItem(){
-            if (itemIndex == totalportfolioItem-1){
-                itemIndex=0;  
+            if (itemIndex === 0){
+                itemIndex=totalportfolioItem-1;  
             }
             else{
-                itemIndex++
+                itemIndex++;
+            }
+            changeItem();
+        }
+        function nextItem(){
+            if (itemIndex === 0){
+                itemIndex=totalportfolioItem-1;  
+            }
+            else{
+                itemIndex--;
             }
             changeItem();
         }
@@ -65,4 +75,7 @@ const filterContainer=document.querySelector(".portfolio-filter"),
             lightboxCounter.innerHTML=(itemIndex+1) + " of " + totalportfolioItem;
         };
 
-                
+        // close Lightbox
+        lightbox.addEventListener("click", function(event){
+            console.log(event.target === lightboxClose);
+        })
