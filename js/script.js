@@ -77,5 +77,7 @@ const filterContainer=document.querySelector(".portfolio-filter"),
 
         // close Lightbox
         lightbox.addEventListener("click", function(event){
-            console.log(event.target === lightboxClose);
+            if(event.target || event.target === lightbox){
+                toggleLightbox();
+            }
         })

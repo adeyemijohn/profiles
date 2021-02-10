@@ -713,7 +713,7 @@
         -ms-flex-pack: center;
         justify-content: center;
         cursor: zoom-out;
-        padding: 30px;
+        padding: 30px ;
     }
     .lightbox .open{
         display: -ms-flexbox;
@@ -724,8 +724,10 @@
         height: auto;
         width: auto;
         max-width: 100%;
-        max-height: 430px;
+        max-height: 500px;
         cursor: pointer;
+        display: block;
+        padding:40px 0 30px;
     }
     .lightbox .lightbox-content{
         position: relative;
@@ -759,8 +761,7 @@
         position: absolute;
         height: 40px;
         width: 40px;
-        /*background-color: red*/
-        top: -40px;
+        top: 0px;
         right: 0px;
         font-size: 32px;
         text-align: right;
@@ -769,7 +770,7 @@
     }
     .lightbox .lightbox-content .lightbox-caption{
         position: absolute;
-        bottom: -20px;
+        bottom: 0;
         left: 0;
         width: 100%;
         display: -ms-flexbox;
@@ -779,6 +780,7 @@
         font-size: 16px;
         color: #ffffff;
         font-weight: 400;
+        z-index: -1;
     }
     .lightbox .lightbox-controls .prev-item:hover,
     .lightbox .lightbox-controls .next-item:hover  {
