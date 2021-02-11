@@ -792,6 +792,7 @@
     padding: 40px;
 }
 .blog .blog-item{
+    -ms-flex: 0 0 33.33%;
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
@@ -855,5 +856,22 @@
 .blog .blog-item-inner .blog-info .blog-tags a{
     text-decoration: none;
 }
-
 /* Blog Section Content Begins*/
+
+/* Contact Section Begins*/
+.contact .contact-info-item{
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    text-align: center;   
+}
+.contact .contact-info-item .icon{
+    display: inline-block;
+}
+.contact .contact-info-item .icon .fa{
+    font-size: 40px;
+}
+.contact .contact-info-item h4{}
+.contact .contact-info-item p{}
+
+/* Contact Section ends*/
