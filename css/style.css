@@ -810,5 +810,34 @@
     /*LightBox Content begins*/
 
 /* Blog Section Content Begins*/
+.blog .container{
+    padding: 40px;
+}
+.blog .blog-item{
+    /*background-color: red;*/
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+}
+.blog .blog-item-inner{
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #d4d4e3;
+}
+.blog .blog-item-inner .blog-img img{
+    width: 100%;
+    display: block;
+}
+.blog .blog-item-inner .blog-info{
+    padding: 30px 15px;
+    background-color: #fdf9ff;
+}
+.blog .blog-item-inner .blog-info .blog-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #302e4d;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
 
 /* Blog Section Content Begins*/
