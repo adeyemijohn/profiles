@@ -871,7 +871,19 @@
 .contact .contact-info-item .icon .fa{
     font-size: 40px;
 }
-.contact .contact-info-item h4{}
-.contact .contact-info-item p{}
+.contact .contact-info-item h4{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    margin: 15px 0 5px;
+}
+.contact .contact-info-item p{
+    font-size: 16px;
+    line-height: 25px;
+    color: #302e4d;
+    margin: 0;
+    font-weight: 400;
+}
 
 /* Contact Section ends*/
