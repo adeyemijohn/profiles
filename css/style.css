@@ -839,5 +839,20 @@
     text-transform: capitalize;
     margin-bottom: 10px;
 }
+.blog .blog-item-inner .blog-info .blog-description{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    color:#503e70;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.blog .blog-item-inner .blog-info .blog-tags{
+    font-size: 16px;
+    line-break: 25px;
+    color: #503e70;
+    font-weight: 400;
+    text-transform: capitalize;
+}
 
 /* Blog Section Content Begins*/
