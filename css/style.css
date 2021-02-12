@@ -944,12 +944,29 @@
         margin-top: 0;
     }
 }
-
+@media (max-width: 991px) {
+    .portfolio .portfolio-item,
+    .service .service-item{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
 @media (max-width: 767px){
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
     .about .about-content .skills,
     .about .about-content .personal-info{
         -ms-flex: 0 0 100px;
         flex: 0 0 100px;
         max-width: 100%;
+    }
+}
+@media (max-width: 767px){
+    .portfolio .portfolio-item{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 }
