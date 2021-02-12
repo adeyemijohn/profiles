@@ -4,7 +4,7 @@ const links=document.querySelectorAll(".alternate-style"),
 
 function setActiveStyle(color){
     for (i=0; i<totalLinks; i++){
-        if (color == links[i].getAttribute("title")){
+        if (color === links[i].getAttribute("title")){
             links[i].removeAttribute("disabled");
         }
         else{
@@ -12,3 +12,7 @@ function setActiveStyle(color){
         }
     }
 }
+
+document.querySelector(".toggle-style-switcher").addEventListener("click", () =>{
+    document.querySelector(".style-switcher").classList.toggle("open");
+})
