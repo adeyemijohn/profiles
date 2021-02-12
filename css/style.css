@@ -946,6 +946,7 @@
 }
 
 @media (max-width: 767px){
+    .about .about-content .skills,
     .about .about-content .personal-info{
         -ms-flex: 0 0 100px;
         flex: 0 0 100px;
