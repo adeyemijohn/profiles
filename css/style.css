@@ -962,11 +962,14 @@
         flex: 0 0 100px;
         max-width: 100%;
     }
+    .portfolio .portfolio-filter button{
+        margin-bottom: 8px;
+    }
 }
-@media (max-width: 767px){
+@media (max-width: 575px){
     .portfolio .portfolio-item{
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
