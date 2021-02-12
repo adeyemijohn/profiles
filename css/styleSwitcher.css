@@ -1,3 +1,36 @@
 .style-switcher{
     position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #d4d4e3;
+    border-radius: none;
+}
+.style-switcher h5{
+    font-size: 16px;
+    color: #302e70;
+    margin-top: 0;
+    margin-bottom: 8px;
+    padding: 5px;
+    border-bottom: 1px solid #e8dfec;
+}
+
+.style-switcher ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.style-switcher ul li{
+    display: inline-block;
+}
+.style-switcher ul li a{
+    height: 30px;
+    width: 30px;
+    display: block;
+    border-radius: 50%;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 2px;
 }
