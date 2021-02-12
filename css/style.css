@@ -916,6 +916,12 @@
     padding: 10px 25px;
     font-size: 16px;
     color: #503e70;
+    -webkit-transition: all 0.3s ease; 
+    transition: all 0.3s ease;
+}
+.contact .contact-form .form-item .form-control:focus{
+    -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 .contact .contact-form .form-item textarea.form-control{
     height: 140px;
