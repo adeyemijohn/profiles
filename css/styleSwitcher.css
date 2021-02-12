@@ -34,3 +34,23 @@
     cursor: pointer;
     margin-right: 2px;
 }
+
+.style-switcher .toggle-style-switcher {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  background-color: #ffffff;
+  left: -46px;
+  top: -1px; 
+  border: 1px solid #d4d4e3;
+  border-right: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px 0 0 5px;
+}
+
+.style-switcher .toggle-style-switcher .fa{
+    font-size: 20px;
+    line-height: 43px;
+
+}
