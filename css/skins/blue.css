@@ -1,10 +1,10 @@
 .aside .logo a::before{
-    border-top:4px solid #ec1839;
-    border-left:4px solid #ec1839;
+    border-top:4px solid #2196f3;
+    border-left:4px solid #2196f3;
 }
 .aside .logo a::after{
-    border-right:4px solid #ec1839;
-    border-bottom:4px solid #ec1839;
+    border-right:4px solid #2196f3;
+    border-bottom:4px solid #2196f3;
 }
 .contact .contact-info-item .icon .fa,
 .blog .blog-item-inner .blog-info .blog-tags a,
