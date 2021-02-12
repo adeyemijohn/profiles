@@ -767,8 +767,8 @@
     }
     .lightbox .lightbox-controls .prev-item:hover,
     .lightbox .lightbox-controls .next-item:hover  {
-        -webkit-transition: scale(1.1);
-        transition: scale(1.1);
+        -webkit-transition: scale(1);
+        transition: scale(1);
     }
 
     .lightbox .lightbox-controls .prev-item:active,
@@ -817,8 +817,8 @@
     transition: all 0.5s ease;
 }
 .blog .blog-item-inner:hover .blog-img img{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 .blog .blog-item-inner .blog-img .blog-date{
     position: absolute;
@@ -944,7 +944,8 @@
         margin-top: 0;
     }
 }
-@media (max-width: 991px) {
+@media (max-width: 991px){
+    .blog .blog-item,
     .portfolio .portfolio-item,
     .service .service-item{
         -ms-flex: 0 0 50%;
@@ -953,6 +954,7 @@
     }
 }
 @media (max-width: 767px){
+    .blog .blog-item,
     .service .service-item,
     .about .about-content .experience,
     .about .about-content .education,
@@ -963,10 +965,11 @@
         max-width: 100%;
     }
     .portfolio .portfolio-filter button{
-        margin-bottom: 8px;
+        margin-bottom: 10px;
     }
 }
 @media (max-width: 575px){
+    .contact .contact-info-item,
     .portfolio .portfolio-item{
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
