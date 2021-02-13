@@ -11,6 +11,7 @@
 .lightbox .lightbox-controls .prev-item .fa,
 .lightbox .lightbox-controls .next-item .fa,
 .portfolio .portfolio-item .portfolio-info .icon .fa,
+body.dark .portfolio .portfolio-filter button.active,
 .portfolio .portfolio-filter button.active,
 .service .service-item .service-item-inner .icon .fa,
 .about .about-content .about-text h3 span,
@@ -34,7 +35,6 @@ body.dark .aside .nav li a:hover,
 .home .intro .social-links a{
     background-color: #72b626;
 }
-
 .portfolio .portfolio-filter button.active{
     border-color: #72b626;
 
