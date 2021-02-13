@@ -30,6 +30,11 @@
         min-height: 100vh;
         display: block;
         padding: 0 30px;
+        position: fixed;
+        left: 270px;
+        top: 0;
+        right: 0;
+        bottom: 0;
     }
 
     .section .container{
@@ -85,11 +90,6 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-
-    .main-content{
-        padding-left: 270px;
-    }
-
     .container{
         max-width: 1100px;
         width: 100%;
