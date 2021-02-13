@@ -93,5 +93,11 @@ const filterContainer=document.querySelector(".portfolio-filter"),
                     navList[j].querySelector("a").classList.remove("active")
                 }
                 this.classList.add("active");
+
+                showSection(this);
             })
-        }        
+        }
+        
+        function showSection(element){
+            const href=element.getAttribute("href").split("#"); 
+        } 
