@@ -34,7 +34,7 @@ body.dark .aside .nav li a:hover,
 .home .intro .social-links a{
     background-color: #ec1839;
 }
-
+body.dark .portfolio .portfolio-filter button.active
 .portfolio .portfolio-filter button.active{
     border-color: #ec1839;
 
