@@ -121,15 +121,12 @@ const filterContainer=document.querySelector(".portfolio-filter"),
         const navToggleBtn=document.querySelector(".nav-toggle");
             aside=document.querySelector(".aside");
 
-        navToggleBtn.addEventListener("click",() =>{
-            asideSectionTogglerBtn();
-        })
-
+        navToggleBtn.addEventListener("click",asideSectionTogglerBtn)
+        
         function asideSectionTogglerBtn(){
             aside.classList.toggle("open");
             navToggleBtn.classList.toggle("open");
+            for (let i=0; i<totalSection; i++){
+                allSection[i].classList.toggle("open");
         }
-
-
-
-
+    }

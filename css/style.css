@@ -217,7 +217,7 @@
         cursor: pointer;
         position: fixed;
         left: 300px;
-        top: 30px;
+        top: 20px;
         z-index: 11;
         border-radius: 5px;
         background-color: #fdf9ff;
@@ -236,6 +236,9 @@
         display: inline-block;
         position: relative;
     }
+    .aside .nav-toggle.open span{
+        background-color: transparent;
+    }
 
     .aside .nav-toggle span::before{
         content: "";
@@ -245,6 +248,11 @@
         top: -6px;
         left: 0;
     }
+    .aside .nav-toggle.open span::before{
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        top: 0px;
+    }
 
     .aside .nav-toggle span::after{
         content: "";
@@ -253,6 +261,11 @@
         position:absolute;
         top: 6px;
         left: 0;
+    }
+    .aside .nav-toggle.open span::after{
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        top: 0px;
     }
 
     .aside .nav{
@@ -1046,6 +1059,9 @@ body.dark .shadow-dark{
     }
     .section{
         left: 0;
+    }
+    .section.open{
+        left: 270px;
     }
     .about .about-content .personal-info .info-item p span{
         display: block;
