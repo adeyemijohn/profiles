@@ -106,6 +106,10 @@ const filterContainer=document.querySelector(".portfolio-filter"),
                 }
                 this.classList.add("active"); 
                 showSection(this);
+
+                if(window.innerWidth < 1200){
+                    asideSectionTogglerBtn();
+                }
             })
         }
         
@@ -122,7 +126,7 @@ const filterContainer=document.querySelector(".portfolio-filter"),
             aside=document.querySelector(".aside");
 
         navToggleBtn.addEventListener("click",asideSectionTogglerBtn)
-        
+
         function asideSectionTogglerBtn(){
             aside.classList.toggle("open");
             navToggleBtn.classList.toggle("open");

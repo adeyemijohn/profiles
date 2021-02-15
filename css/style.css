@@ -1043,6 +1043,9 @@ body.dark .shadow-dark{
 
 /*Responsive*/
 @media (max-width: 1199px){
+    .container .section{
+        padding-top: 70px;
+    }
     .aside .nav-toggle{
         display: -ms-flexbox;
         display: flex;
