@@ -39,6 +39,8 @@
         overflow-y: auto;
         z-index: 0;
         opacity: 1;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
     }
     .section.back-section{
         z-index: 1;
@@ -170,7 +172,8 @@
         z-index: 10;
         border-right:1px solid #e8dfec;
         padding: 30px;
-        transition: all 1s ease;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
     }
 
     .aside .logo{
@@ -223,6 +226,8 @@
         align-items: center;
         -ms-flex-pack: center;
         justify-content: center;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
     }
 
     .aside .nav-toggle span{
