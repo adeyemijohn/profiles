@@ -170,6 +170,7 @@
         z-index: 10;
         border-right:1px solid #e8dfec;
         padding: 30px;
+        transition: all 1s ease;
     }
 
     .aside .logo{
@@ -1027,9 +1028,19 @@ body.dark .shadow-dark{
     .aside .nav-toggle{
         display: -ms-flexbox;
         display: flex;
+        left: 30px;
+    }
+    .aside .nav-toggle.open{
+        left: 300px;
     }
     .aside{
         left: -270px;
+    }
+    .aside.open{
+        left: 0px;
+    }
+    .section{
+        left: 0;
     }
     .about .about-content .personal-info .info-item p span{
         display: block;

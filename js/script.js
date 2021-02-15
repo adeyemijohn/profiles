@@ -116,3 +116,20 @@ const filterContainer=document.querySelector(".portfolio-filter"),
             const target=element.getAttribute("href").split("#")[1];
            document.querySelector("#"+target).classList.add("active")
         } 
+
+
+        const navToggleBtn=document.querySelector(".nav-toggle");
+            aside=document.querySelector(".aside");
+
+        navToggleBtn.addEventListener("click",() =>{
+            asideSectionTogglerBtn();
+        })
+
+        function asideSectionTogglerBtn(){
+            aside.classList.toggle("open");
+            navToggleBtn.classList.toggle("open");
+        }
+
+
+
+
