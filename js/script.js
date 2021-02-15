@@ -91,11 +91,15 @@ const filterContainer=document.querySelector(".portfolio-filter"),
         for (let i=0; i<totalNavList; i++){
             const a=navList[i].querySelector("a")
             a.addEventListener("click", function(){
+                // remove back section class
                 for (let j=0; j<totalNavList; j++){
+                    if(navList[j].querySelector("a").classList.contains("back-section")){
+                        // add back section class
+                        allSection[j].classList.add("back-section");
+                    }
                     navList[j].querySelector("a").classList.remove("active")
                 }
-                this.classList.add("active");
-
+                this.classList.add("active"); 
                 showSection(this);
             })
         }
@@ -105,6 +109,5 @@ const filterContainer=document.querySelector(".portfolio-filter"),
                 allSection[i].classList.remove("active");
             }
             const target=element.getAttribute("href").split("#")[1];
-            
            document.querySelector("#"+target).classList.add("active")
         } 
