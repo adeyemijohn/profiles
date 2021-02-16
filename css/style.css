@@ -619,6 +619,7 @@
         text-align: center;
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease;
+        width: 100%;
     }
     .service .service-item .service-item-inner:hover{
         -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.15);
