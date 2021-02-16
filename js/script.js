@@ -1,7 +1,7 @@
 window.addEventListener("load",() =>{
     document.querySelector(".preloader").classList.add("opacity-0");
-    
-    setTimeout(()=>{
+    //removing arrow function
+    setTimeout(function (){
         document.querySelector(".preloader").style.display="none";
     },1000)
 })
@@ -20,11 +20,11 @@ const filterContainer=document.querySelector(".portfolio-filter"),
                 this.classList.add("active");
                 
                 const filterValue=this.getAttribute("data-filter");
-                console.log(filterValue)
                 for (let k=0; k<totalportfolioItem; k++){
-                    if (portfolioItems[k].getAttribute("data-category").includes(filterValue) ){
+                    if (filterValue === portfolioItems[k].getAttribute("data-category")){
+                        portfolioItems[k].classList.remove("hide");
                         portfolioItems[k].classList.add("show");
-                        portfolioItems[k].classList.remove("hide"); 
+                         
                     }
                     else{
                         portfolioItems[k].classList.remove("show");
