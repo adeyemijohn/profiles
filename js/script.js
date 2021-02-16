@@ -1,4 +1,4 @@
-window.addEventListener("load",() =>{
+window.addEventListener("load", function(){
     document.querySelector(".preloader").classList.add("opacity-0");
     //removing arrow function
     setTimeout(function (){
@@ -125,7 +125,15 @@ const filterContainer=document.querySelector(".portfolio-filter"),
             }
             const target=element.getAttribute("href").split("#")[1];
            document.querySelector("#"+target).classList.add("active")
-        } 
+        }
+
+        function update(){
+            
+        }
+
+        document.querySelector(".hire-me").addEventListener("click", function(){
+            showSection(this);
+        })
 
 
         const navToggleBtn=document.querySelector(".nav-toggle");
