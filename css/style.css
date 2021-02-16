@@ -909,11 +909,13 @@
     max-width: 33.33%;
     margin-bottom: 30px;
     display: flex;
+    background-color: #fdf9ff;
 }
 .blog .blog-item-inner{
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid #d4d4e3;
+    width: 100%;
 }
 .blog .blog-item-inner .blog-img{
     position: relative;
@@ -941,7 +943,6 @@
 }
 .blog .blog-item-inner .blog-info{
     padding: 30px 15px;
-    background-color: #fdf9ff;
 }
 .blog .blog-item-inner .blog-info .blog-title{
     font-size: 18px;
@@ -1108,7 +1109,7 @@ body.dark .shadow-dark{
         left: 30px;
     }
     .aside .nav-toggle.open{
-        left: 300px;
+        left: 200px;
     }
     .aside{
         left: -270px;
