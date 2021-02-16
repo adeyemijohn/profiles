@@ -128,11 +128,16 @@ const filterContainer=document.querySelector(".portfolio-filter"),
         }
 
         function updateNav(element){
-            console.log(element.getAttribute("href").split("#")[1])
-
+            for (let i=0; i<totalNavList; i++){
+                navList[i].querySelector("a").classList.remove("active");
+                const target=element.getAttribute("href").split("#")[1];
+                if(navList[i].querySelector("a").getAttribute("href").split("#")[1]){
+                    navList[i].querySelector("a").classList.add("active")
+                }
+            }
         }
 
-        document.querySelector(".hire-me").addEventListener("click", function(){
+        document.querySelector(".hire-me").addEventListener("click",function(){
             showSection(this);
             updateNav(this);
         })
