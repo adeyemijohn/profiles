@@ -127,12 +127,14 @@ const filterContainer=document.querySelector(".portfolio-filter"),
            document.querySelector("#"+target).classList.add("active")
         }
 
-        function update(){
-            
+        function updateNav(element){
+            console.log(element.getAttribute("href").split("#")[1])
+
         }
 
         document.querySelector(".hire-me").addEventListener("click", function(){
             showSection(this);
+            updateNav(this);
         })
 
 
