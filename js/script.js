@@ -151,7 +151,9 @@ const filterContainer=document.querySelector(".portfolio-filter"),
             const sectionIndex=this.getAttribute("data-section-index");
             //console.log(sectionIndex);
             showSection(this);
-            updateNav(this); 
+            updateNav(this);
+            //removeBackSectionClass();
+            //addBackSectionClass(sectionIndex);
         })
 
 
